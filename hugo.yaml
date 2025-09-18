@@ -1,0 +1,41 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Nick Duncan
+theme: ["PaperMod"]
+themesDir: "themes/"
+
+menu:
+  main:
+    - name: Portfolio
+      url: portfolio
+      weight: 5
+    - name: Blog
+      url: blog/
+      weight: 10
+    - name: Contact
+      url: contact/
+      weight: 10
+
+params:
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Nick!" # optional, default will be site title
+    subtitle: "I'm a composer and sound designer for video games, and a general game development enthusiast. I've worked on a variety of solo and collaborative gamedev and modding ventures over the years, which you can find out more about here!"
+    imageUrl: "snart.png"
+    imageTitle: "<title of image as alt>"
+    imageWidth: 240
+    imageHeight: 240
+    buttons:
+      - name: Portfolio
+        url: "/portfolio"
+      - name: Contact Me
+        url: "mailto:snoodlestuff@gmail.com" # TODO: Make this good
+  socialIcons:
+    - name: "YouTube"
+      url: "https://www.youtube.com/@snoodlestuff"
+    - name: "Spotify"
+      url: "https://open.spotify.com/artist/4eufX6iVwkPIenqx4KEkKU"
+    - name: "Bandcamp"
+      url: "https://snoodle.bandcamp.com/"
+    - name: "Itch"
+      url: "https://snoodlegames.itch.io/"
