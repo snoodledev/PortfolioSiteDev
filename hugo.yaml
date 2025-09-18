@@ -19,7 +19,7 @@ menu:
 params:
   profileMode:
     enabled: true
-    title: "Hi, I'm Nick!" # optional, default will be site title
+    title: "hello" # optional, default will be site title
     subtitle: "I'm a composer and sound designer for video games, and a general game development enthusiast. I've worked on a variety of solo and collaborative gamedev and modding ventures over the years, which you can find out more about here!"
     imageUrl: "snart.png"
     imageTitle: "<title of image as alt>"

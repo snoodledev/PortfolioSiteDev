@@ -18,7 +18,6 @@
     color: var(--theme);
     font-size: 13px;
     line-height: 36px;
-    background: transparent;
     border-radius: calc(36px / 2);
     padding: 0 16px;
 }
