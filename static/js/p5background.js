@@ -31,7 +31,7 @@ function setup() {
 	fill(colorTheme);
 	
 	for (let i=0; i<num; i++) {
-		var loc = createVector(random(width), random(height), 1);
+		var loc = createVector(random(width), random(height), random(0.8, 1.2));
 		var angle = 0; //any value to initialize
 		var dir = createVector(cos(angle), sin(angle));
 		// var speed = random(0,0.01);
