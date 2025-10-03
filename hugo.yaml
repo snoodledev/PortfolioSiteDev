@@ -32,7 +32,7 @@ params:
     imageHeight: 240
     buttons:
       - name: Portfolio
-        url: "/portfolio"
+        url: "/projects"
       - name: Contact Me
         url: "/contact"
   socialIcons:
