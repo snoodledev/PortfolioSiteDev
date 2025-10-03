@@ -7,7 +7,7 @@ draft: false
 showToc: false
 weight: 105
 cover:
-    image: "projects/astagtde/cover.png"
+    image: "projects/rw-music/cover.png"
 --- 
 {{< youtube aPa1S7JF7I4 >}}
 
@@ -18,4 +18,4 @@ These pieces are designed from the ground up to be played dynamically, with a un
 
 These projects involved close collaboration with mod developers, to ensure the music was thematically fitting and appropriately intense.
 
-A full playlist of these compositions is viewable [here](https://youtube.com/playlist?list=PLxrBrBQfEvRtBh1PJ2aDcWmY3wJmfP2fP&si=OhyabWGHnPrVd5qk)!
+### [A full playlist of these compositions is viewable here](https://youtube.com/playlist?list=PLxrBrBQfEvRtBh1PJ2aDcWmY3wJmfP2fP&si=OhyabWGHnPrVd5qk)!

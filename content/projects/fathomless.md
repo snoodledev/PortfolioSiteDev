@@ -9,7 +9,7 @@ weight: 110
 cover:
     image: "projects/fathomless/cover.png"
 --- 
-![](/projects/fathomless/cover.png)
+<!-- ![](fathomless1.png) -->
 
 Fathomless is a short atmospheric horror-management game about holding a failing starship together until help arrives. The player is put into the shoes of a crew member desperately trying to maintain the obtuse, failing systems of a decaying ship, transferring power, repairing systems and fending off unknown horrors until help (?) arrives. 
 <br>
