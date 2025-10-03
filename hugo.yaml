@@ -1,35 +1,40 @@
-baseURL: https://example.org/
+baseURL: https://snoodle.space/
 languageCode: en-us
-title: Nick Duncan
-theme: ["PaperMod"]
+title: SNOODLESONICS
+theme: ["papermod"]
 themesDir: "themes/"
+env: production
 
 menu:
   main:
-    - name: Portfolio
-      url: portfolio
-      weight: 5
-    - name: Blog
-      url: blog/
-      weight: 10
-    - name: Contact
-      url: contact/
-      weight: 10
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 2
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 4
 
 params:
+  # profile page
   profileMode:
     enabled: true
-    title: "hello" # optional, default will be site title
+    title: "Hi, I'm Nick!" # optional, default will be site title
     subtitle: "I'm a composer and sound designer for video games, and a general game development enthusiast. I've worked on a variety of solo and collaborative gamedev and modding ventures over the years, which you can find out more about here!"
     imageUrl: "snart.png"
-    imageTitle: "<title of image as alt>"
+    imageTitle: "Profile"
     imageWidth: 240
     imageHeight: 240
     buttons:
       - name: Portfolio
         url: "/portfolio"
       - name: Contact Me
-        url: "mailto:snoodlestuff@gmail.com" # TODO: Make this good
+        url: "/contact"
   socialIcons:
     - name: "YouTube"
       url: "https://www.youtube.com/@snoodlestuff"
@@ -37,5 +42,41 @@ params:
       url: "https://open.spotify.com/artist/4eufX6iVwkPIenqx4KEkKU"
     - name: "Bandcamp"
       url: "https://snoodle.bandcamp.com/"
-    - name: "Itch"
+    - name: "itch.io"
       url: "https://snoodlegames.itch.io/"
+  
+  # theme
+  showToc: false
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  # List View
+  hideDescriptionInList: false
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+  # youtube embed cover
+  videocover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -7,17 +7,18 @@ main {
 header {
     background: transparent;
 }
-
 div {
+    background: transparent;
+}
+body {
+    background: transparent;
+}
+footer {
     background: transparent;
 }
 
 body {
-    background: transparent;
-}
-
-footer {
-    background: transparent;
+	background-color: var(--theme);
 }
 
 canvas.backgroundsketch {
@@ -31,4 +32,45 @@ canvas.backgroundsketch {
 	overflow: hidden;
 
 	z-index: -1;
+}
+
+/* FORMS */
+
+label.contact-form {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+input.contact-form {
+    padding: 4px 10px;
+    width: 100%;
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+	background-color: var(--lightbg);
+    font-weight: normal;
+    border-radius: var(--radius);
+}
+
+textarea.contact-form {
+    padding: 4px 10px;
+    width: 100%;
+	resize: vertical;
+    font-weight: normal;
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+	background-color: var(--lightbg);
+    border-radius: var(--radius);
+}
+
+button#contact-button {
+	flex-wrap: wrap;
+    max-width: 400px;
+	min-width: 100px;
+	font-size: larger;
+	font-weight: bold;
+}
+
+div#contact-button-div {
+	text-align: center;
+	padding: 16px;
 }

@@ -1,0 +1,22 @@
+{{- with .cxt}} {{/* Apply proper context from dict */}}
+{{- if (and .Params.videocover.image (not $.isHidden)) }}
+<figure class="entry-cover">
+    {{- $loading := cond $.IsSingle "eager" "lazy" }}
+    {{- $alt := (.Params.videocover.alt | default .Params.videocover.caption | plainify) }}
+    {{- $link := (.Params.videocover.link | default "https://www.youtube.com/watch?v=EZI9kydYhfA" | plainify) }}
+
+    {{/*  VIDEO COVER DOES NOT EMBED! BAD  */}}
+    <iframe 
+        width="660px" height="500vw"
+        src="{{ $link }}">
+    </iframe>
+
+    {{- /*  Display Caption  */}}
+    {{- if $.IsSingle }}
+        {{ with .Params.videocover.caption -}}
+            <figcaption>{{ . | markdownify }}</figcaption>
+        {{- end }}
+    {{- end }}
+</figure>
+{{- end }}{{/* End image */}}
+{{- end -}}{{/* End context */ -}}
