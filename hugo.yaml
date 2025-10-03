@@ -1,7 +1,7 @@
 baseURL: https://snoodledev.github.io/portfolio/
 languageCode: en-us
 title: SNOODLESONICS
-theme: ["papermod"]
+theme: ["PaperMod"]
 themesDir: "themes/"
 env: production
 
