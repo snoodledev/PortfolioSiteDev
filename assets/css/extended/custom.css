@@ -51,6 +51,10 @@ input.contact-form {
     border-radius: var(--radius);
 }
 
+input#contact-form-email {
+    width: 80.78%;
+}
+
 textarea.contact-form {
     padding: 4px 10px;
     width: 100%;

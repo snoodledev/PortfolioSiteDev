@@ -26,15 +26,15 @@ params:
     enabled: true
     title: "Hi, I'm Nick!" # optional, default will be site title
     subtitle: "I'm a composer and sound designer for video games, and a general game development enthusiast. I've worked on a variety of solo and collaborative gamedev and modding ventures over the years, which you can find out more about here!"
-    imageUrl: "snart.png"
+    imageUrl: "profile-cupcat.png"
     imageTitle: "Profile"
     imageWidth: 240
     imageHeight: 240
     buttons:
       - name: Portfolio
-        url: "/projects"
+        url: "projects"
       - name: Contact Me
-        url: "/contact"
+        url: contact
   socialIcons:
     - name: "YouTube"
       url: "https://www.youtube.com/@snoodlestuff"
